@@ -66,6 +66,6 @@ operationButtons.forEach(button => {
 })
 
 equalsButton.addEventListener('click', button => {
-   calculator.computer()
+   calculator.compute()
    calculator.updateDisplay()
 })
